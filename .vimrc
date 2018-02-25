@@ -5,6 +5,8 @@ set cursorline
 map <C-F12> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 filetype plugin on
+filetype indent on
+
 set omnifunc=syntaxcomplete#Complete
 " OmniCppComplete
 let OmniCpp_NamespaceSearch = 1
